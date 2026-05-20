@@ -277,9 +277,16 @@ a:hover {
     display: none;
   }
   .tela{
-    top: -100px;
+    top: -50px;
   }
   .menu{
     height: 80%;
   }
+  .card p {
+  line-height: 1.2;
+}
+.char-video{
+  width: 80%;
+}
+
 }
