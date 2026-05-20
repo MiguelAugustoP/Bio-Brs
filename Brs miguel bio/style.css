@@ -272,6 +272,7 @@ a:hover {
     margin-bottom: 5px;
   }
   .char-video {
-    width: 10%;
+    object-fit: contain;
+    width: 60%;
   }
 }
