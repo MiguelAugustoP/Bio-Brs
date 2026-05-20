@@ -261,7 +261,7 @@ a:hover {
   background: #00f0ff22;
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 768px) {
   #rotate-warning {
     display: flex;
     position: fixed;
@@ -283,10 +283,10 @@ a:hover {
     height: 80%;
   }
   .card p {
-  line-height: 1.2;
+  line-height: 1.0;
 }
 .char-video{
-  width: 80%;
+  width: 90%;
 }
 
 }
