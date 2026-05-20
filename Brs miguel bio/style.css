@@ -259,7 +259,7 @@ a:hover {
   }
 
   .menu {
-    min-height: 96vh;
+    min-height: 90vh;
     padding: 10px;
   }
   .menu h2 {
@@ -295,7 +295,7 @@ a:hover {
   }
 
   .personagem {
-    width: 140px;
+    width: 100px;
     height: 100%;
   }
   .char-video {
