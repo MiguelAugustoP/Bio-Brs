@@ -259,10 +259,12 @@ a:hover {
     top: -50px;
   }
   .menu {
-    height: 90%;
+    height: 80vh;
   }
   .card {
     padding: 10px;
+    max-height: 70vh;
+    overflow-y: auto;
   }
   .card p {
     line-height: 1.2;
