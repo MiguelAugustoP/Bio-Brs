@@ -9,7 +9,7 @@ body {
   background: transparent;
   color: white;
   font-family: Arial;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* FUNDO XADREZ MELHORADO */
@@ -255,24 +255,31 @@ a:hover {
   }
 }
 @media (max-width: 768px) and (orientation: landscape) {
+  .layout {
+    grid-template-columns: 160px 1fr 180px;
+  }
   .tela {
-    top: -75px;
+    top: 0;
+    overflow-y: auto;
+    max-height: 100vh;
   }
   .menu {
     height: 80vh;
   }
   .menu h2 {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
   }
-  .menu button{
+  .menu button {
     padding: 10px;
   }
   .card {
     padding: 10px;
+    overflow-y: auto;
+    max-height: 80vh;
   }
   .card p {
     line-height: 1.2;
-    font-size: 10px;
+    font-size: 12px;
   }
   .char-video {
     object-fit: contain;
