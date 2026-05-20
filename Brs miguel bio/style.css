@@ -261,6 +261,12 @@ a:hover {
   .menu {
     height: 80vh;
   }
+  .menu h2 {
+  margin-bottom: 5px;
+  }
+  .menu button{
+    padding: 10px;
+  }
   .card {
     padding: 10px;
     max-height: 70vh;
