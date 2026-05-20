@@ -178,7 +178,7 @@ opacity: 0.5;
   opacity: 0;
   transform: translateX(80px) scale(0.98);
   transition: 0.4s;
-  top: -200px;
+  top: -130px;
 }
 
 .tela.ativa {
