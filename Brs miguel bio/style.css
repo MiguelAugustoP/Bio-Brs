@@ -9,7 +9,7 @@ body {
   background: transparent;
   color: white;
   font-family: Arial;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* FUNDO XADREZ MELHORADO */
@@ -60,22 +60,6 @@ body {
 }
 .card p {
   line-height: 1.8;
-}
-.card::-webkit-scrollbar {
-  width: 6px;
-}
-
-.card::-webkit-scrollbar-track {
-  background: rgba(255,255,255,0.05);
-}
-
-.card::-webkit-scrollbar-thumb {
-  background: #00f0ff;
-  border-radius: 10px;
-}
-
-.card::-webkit-scrollbar-thumb:hover {
-  background: #7df7ff;
 }
 
 ul {
