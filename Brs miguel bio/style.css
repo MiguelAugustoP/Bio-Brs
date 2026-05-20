@@ -281,7 +281,7 @@ a:hover {
 @media (max-width: 768px) and (orientation: landscape) {
 
   .tela {
-    top: -100px;
+    top: -50px;
   }
 
   .menu {
@@ -293,7 +293,7 @@ a:hover {
   }
 
   .char-video {
-    width: 90%;
+    width: 60%;
   }
 
 }
