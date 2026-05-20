@@ -148,6 +148,18 @@ opacity: 0.5;
   background: #00f0ff22;
   color: #00f0ff;
 }
+/* BOTÃO ATIVO (estilo jogo) */
+.menu-btn.ativo {
+  background: #00f0ff22;
+  color: #00f0ff;
+  border-left: 3px solid #00f0ff;
+  transition: 0.2s;
+}
+
+/* efeito leve ao passar */
+.menu-btn:hover {
+  background: #00f0ff22;
+}
 
 /* CONTEÚDO */
 .conteudo {
@@ -215,19 +227,6 @@ opacity: 0.5;
   display: none;
 }
 
-/* BOTÃO ATIVO (estilo jogo) */
-.menu-btn.ativo {
-  background: #00f0ff22;
-  color: #00f0ff;
-  border-left: 3px solid #00f0ff;
-  transition: 0.2s;
-}
-
-/* efeito leve ao passar */
-.menu-btn:hover {
-  background: #00f0ff22;
-}
-
 a {
   display: inline-block;
   padding: 5px 10px;
@@ -257,19 +256,17 @@ a:hover {
 @media (max-width: 768px) and (orientation: landscape) {
 
   .layout {
-    grid-template-columns: 160px 1fr 180px;
+    grid-template-columns: 160px 1fr 140px;
   }
 
   .menu {
-    height: 90vh;
+    height: 96vh;
     padding: 10px;
   }
-
   .menu h2 {
     margin-bottom: 5px;
     font-size: 18px;
   }
-
   .menu button {
     padding: 8px;
     font-size: 12px;
@@ -278,20 +275,18 @@ a:hover {
   .tela {
     top: 0;
     height: 90vh;
-
     display: flex;
     align-items: flex-start;
   }
 
   .card {
-    padding: 10px;
-    width: 100%;
-    max-height: 60dvh;
-    overflow-y: auto;
-
-    min-height: 0;
+  padding: 10px;
+  width: 100%;
+  max-height: 78dvh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 0;
   }
-
   .card p {
     line-height: 1.2;
     font-size: 12px;
@@ -299,6 +294,6 @@ a:hover {
 
   .char-video {
     object-fit: contain;
-    width: 60%;
+    width: 45%;
   }
 }
