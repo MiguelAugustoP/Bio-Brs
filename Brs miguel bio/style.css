@@ -165,7 +165,7 @@ opacity: 0.5;
   opacity: 0;
   transform: translateX(80px) scale(0.98);
   transition: 0.4s;
-  top: -130px;
+  top: -150px;
 }
 .tela.ativa {
   opacity: 1;
@@ -256,7 +256,7 @@ a:hover {
 }
 @media (max-width: 768px) and (orientation: landscape) {
   .tela {
-    top: -50px;
+    top: -75px;
   }
   .menu {
     height: 80vh;
@@ -269,15 +269,10 @@ a:hover {
   }
   .card {
     padding: 10px;
-    max-height: 70vh;
-    overflow-y: auto;
   }
   .card p {
     line-height: 1.2;
     font-size: 10px;
-  }
-  li {
-    margin-bottom: 5px;
   }
   .char-video {
     object-fit: contain;
