@@ -259,7 +259,7 @@ a:hover {
     top: -50px;
   }
   .menu {
-    height: 80%;
+    height: 90%;
   }
   .card {
     padding: 10px;
@@ -272,6 +272,6 @@ a:hover {
     margin-bottom: 5px;
   }
   .char-video {
-    width: 50%;
+    width: 10%;
   }
 }
