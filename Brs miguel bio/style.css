@@ -261,9 +261,15 @@ a:hover {
   .menu {
     height: 80%;
   }
+  .card {
+    padding: 10px;
+  }
   .card p {
     line-height: 1.2;
     font-size: 10px;
+  }
+  li {
+    margin-bottom: 5px;
   }
   .char-video {
     width: 50%;
