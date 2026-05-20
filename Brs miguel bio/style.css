@@ -260,12 +260,8 @@ a:hover {
     grid-template-columns: 160px 1fr 180px;
   }
 
-  .tela {
-    top: 0;
-  }
-
   .menu {
-    height: 95vh;
+    height: 90vh;
     padding: 10px;
   }
 
@@ -279,10 +275,21 @@ a:hover {
     font-size: 12px;
   }
 
+  .tela {
+    top: 0;
+    height: 90vh;
+
+    display: flex;
+    align-items: flex-start;
+  }
+
   .card {
     padding: 10px;
-    max-height: 65vh;
+    width: 100%;
+    max-height: 60dvh;
     overflow-y: auto;
+
+    min-height: 0;
   }
 
   .card p {
