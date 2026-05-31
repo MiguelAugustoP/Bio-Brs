@@ -44,7 +44,7 @@ body {
   position: relative;
   backdrop-filter: blur(4px);
   box-shadow: 0 0 15px #00f0ff22;
-  max-height: 60vh;
+  height: 50vh;
   overflow: hidden;
 }
 
